@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* print Celsius-Fahrenheit table*/
+
 main(){
     float fahr, celsius;
     int lower, upper, step;
@@ -8,7 +10,7 @@ main(){
     upper = 300;
     step = 20;
 
-    printf("Celsius-Fahrenheit Table\n");
+    printf("Celsius-Fahrenheit Table\n"); // Exrecise 1-3
     celsius = lower;
     while(celsius <= upper){
         fahr = (celsius * 9.0/5.0) + 32.0;
